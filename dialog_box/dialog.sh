@@ -45,6 +45,8 @@ while true
 do
 
 ### display main menu ###
+
+## Whatch out for the last \ if number of arguments fails ##
 dialog --clear  --help-button --backtitle "Linux Shell Script Tutorial" \
 --title "[ M A I N - M E N U ]" \
 --menu "You can use the UP/DOWN arrow keys, the first \n\
