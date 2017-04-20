@@ -20,6 +20,20 @@ grep PATTERN FILE
 
 grep -w "PATTERN" FILE
 
+## For search among a path
+
+grep -Hrn PATTERN PATH
+
+    -H causes the filename to be printed (implied when multiple files are searched)
+    -r does a recursive search
+    -n causes the line number to be printed
+
+## Other options 
+
+    -I ignore binary files (complement: -a treat all files as text)
+    -F treat search term as a literal, not a regular expression
+    -i do a case-insensitive search
+
 
 
 
